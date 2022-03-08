@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             //Calculate the tax
             double tax = Dtax * 0.15;
 
-            // Set String in the Text view 
+            // Set String in the Text view
             amountT.setText("Your Tax = "+tax+" SR \n\n Amount after adding the tax = "+(Dtax+tax));
 
 
